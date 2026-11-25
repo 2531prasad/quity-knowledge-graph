@@ -1,0 +1,658 @@
+{
+  "version": "atlas-factors-v3-proposal-1",
+  "status": "unreviewed_design_only",
+  "driver_coverage_count": 67,
+  "driver_mappings": [
+    {
+      "driver_id": "ADVERTISING_BUDGETS",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "AGRICULTURAL_INPUTS",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "ASSET_PRICES",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "proxy",
+      "rationale": "Potential aggregate proxy; company mix, geography and measurement orientation require review.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "AUM_INFLOWS",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "AUTOMOTIVE_ER_AND_D",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "BFSI_TECH_SPEND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "BUSINESS_SPENDING",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "CAPITAL_EXPENDITURE",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "CHEMICAL_FEEDSTOCKS",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "CLAIMS_EXPERIENCE",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "no_suitable_benchmark",
+      "rationale": "No single coherent series selected; define scope or retain contextual evidence only.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "COMPUTE_INFRASTRUCTURE",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "CONSTRUCTION_CYCLE",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "CONSUMER_ATTENTION",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "no_suitable_benchmark",
+      "rationale": "No single coherent series selected; define scope or retain contextual evidence only.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "CONSUMER_FINANCING",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "CONSUMER_SPENDING",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "COPPER_PRICES",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "direct",
+      "rationale": "Narrow price concept; exact grade, currency, tenor, provider and access remain unverified.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "COTTON_AND_FIBRE_PRICES",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "proxy",
+      "rationale": "Potential aggregate proxy; company mix, geography and measurement orientation require review.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "CREDIT_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "proxy",
+      "rationale": "Potential aggregate proxy; company mix, geography and measurement orientation require review.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "CREDIT_QUALITY",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "no_suitable_benchmark",
+      "rationale": "No single coherent series selected; define scope or retain contextual evidence only.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "CRUDE_OIL_PRICES",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "direct",
+      "rationale": "Narrow price concept; exact grade, currency, tenor, provider and access remain unverified.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "DATA_CENTRE_INVESTMENT",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "DIGITAL_ADOPTION",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "DISCRETIONARY_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "ELECTRICITY_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "proxy",
+      "rationale": "Potential aggregate proxy; company mix, geography and measurement orientation require review.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "ELECTRIFICATION_INVESTMENT",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "ELECTRONICS_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "ENERGY_COSTS",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "ENERGY_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "ENERGY_STORAGE",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "ENERGY_TRANSITION",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "EQUITY_MARKET_VOLATILITY",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "proxy",
+      "rationale": "Potential aggregate proxy; company mix, geography and measurement orientation require review.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "EXPORT_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "FOOD_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "FREIGHT_RATES",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "proxy",
+      "rationale": "Potential aggregate proxy; company mix, geography and measurement orientation require review.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "FUEL_COSTS",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "GOLD_LOAN_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "GOLD_PRICES",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "direct",
+      "rationale": "Narrow price concept; exact grade, currency, tenor, provider and access remain unverified.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "GOLD_VALUE_CHAIN",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "no_suitable_benchmark",
+      "rationale": "No single coherent series selected; define scope or retain contextual evidence only.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "HEALTHCARE_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "HEALTHCARE_EXPENDITURE",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "HOUSING_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "proxy",
+      "rationale": "Potential aggregate proxy; company mix, geography and measurement orientation require review.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "INDUSTRIAL_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "INFRASTRUCTURE_INVESTMENT",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "INPUT_COSTS",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "INSURANCE_PENETRATION",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "INTEREST_RATES",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "proxy",
+      "rationale": "Potential aggregate proxy; company mix, geography and measurement orientation require review.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "JEWELLERY_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "LEAD_PRICES",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "direct",
+      "rationale": "Narrow price concept; exact grade, currency, tenor, provider and access remain unverified.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "MANUFACTURING_OUTSOURCING",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "MARKET_PARTICIPATION",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "METAL_PRICES",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [
+        "ALUMINIUM_PRICE"
+      ],
+      "factor_relation": "narrower_factor_requires_company_evidence"
+    },
+    {
+      "driver_id": "MSME_CREDIT_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "PACKAGED_CONSUMPTION",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "PULP_AND_POLYMER_PRICES",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "REGULATORY_REQUIREMENTS",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "no_suitable_benchmark",
+      "rationale": "No single coherent series selected; define scope or retain contextual evidence only.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "RETAIL_CREDIT_GROWTH",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "SEMICONDUCTOR_SUPPLY",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "no_suitable_benchmark",
+      "rationale": "No single coherent series selected; define scope or retain contextual evidence only.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "SERVICE_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "SKILLED_LABOUR",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "TECHNOLOGY_SPENDING",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "TEXTILE_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "TRADE_VOLUMES",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "proxy",
+      "rationale": "Potential aggregate proxy; company mix, geography and measurement orientation require review.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "TRAVEL_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "contextual_only",
+      "rationale": "Broad or structural mechanism; activity data may provide context but is not a company earnings exposure.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "USFDA_REGULATORY_COMPLIANCE",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "no_suitable_benchmark",
+      "rationale": "No single coherent series selected; define scope or retain contextual evidence only.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "VEHICLE_DEMAND",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "proxy",
+      "rationale": "Potential aggregate proxy; company mix, geography and measurement orientation require review.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "WEATHER_AND_HARVESTS",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "no_suitable_benchmark",
+      "rationale": "No single coherent series selected; define scope or retain contextual evidence only.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    },
+    {
+      "driver_id": "WORKING_CAPITAL",
+      "research_state": "pending",
+      "candidate_mapping_outcome": "no_suitable_benchmark",
+      "rationale": "No single coherent series selected; define scope or retain contextual evidence only.",
+      "benchmark_links": [],
+      "factor_ids": [],
+      "factor_relation": null
+    }
+  ],
+  "benchmarks": [],
+  "factors": [
+    {
+      "id": "ALUMINIUM_PRICE",
+      "definition": "Primary aluminium reference metal price in USD per metric tonne; physical grade/geography premium, FX and delivery basis held constant.",
+      "legacy_driver": "METAL_PRICES",
+      "relation": "narrower_factor",
+      "inherit_materiality": false,
+      "aliases": [
+        "aluminium reference metal price"
+      ],
+      "scenario_id": "AL_USD_UP10_12M_PBT_V1",
+      "shock": {
+        "kind": "relative_percent",
+        "size": 10,
+        "unit": "percent",
+        "path": "instantaneous permanent level increase over 12 months",
+        "holds_constant": [
+          "non-aluminium prices",
+          "FX",
+          "volumes",
+          "demand",
+          "business structure",
+          "physical premiums",
+          "grade/geography basis"
+        ],
+        "endogenous_channels": [
+          "disclosed contractual repricing",
+          "existing hedges through expiry",
+          "inventory accounting",
+          "financing effects of working capital"
+        ]
+      },
+      "target_metric": "consolidated_pretax_profit",
+      "horizon_months": 12,
+      "benchmark_ids": [],
+      "status": "proposal_only"
+    }
+  ],
+  "rules": [
+    "Candidate mapping outcomes are triage proposals, not completed provider research.",
+    "Final pass must replace every pending mapping with direct/proxy/contextual_only/no_suitable_benchmark plus supporting evidence or a documented no-selection reason.",
+    "LME and MCX metadata are research candidates only. Neither is a verified available feed here.",
+    "MCX INR and LME USD series must not create duplicate aluminium exposure dimensions. Currency, premium, grade and tenor basis require explicit separately evidenced factors.",
+    "No global company-benefit sign resides on drivers or benchmarks."
+  ]
+}

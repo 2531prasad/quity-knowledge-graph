@@ -1,0 +1,413 @@
+{
+  "version": "atlas-ontology-v3-proposal-1",
+  "status": "proposed_not_approved_not_source_verified",
+  "format": "bounded_patch",
+  "base": {
+    "revision": "253c56c043c1b0cb",
+    "artifact": "tag-ontology.json",
+    "sha256": "cfab5c5b5b474fab8915c63a83f9e74ad0f51141d6d3aab3fe78094a02f777ff",
+    "unchanged_ids": {
+      "value_chains": [
+        "GOLD_BULLION_AND_JEWELLERY",
+        "DIAMONDS_AND_LAB_GROWN",
+        "CRUDE_OIL_UPSTREAM_EXPLORATION",
+        "REFINING_PETROCHEM_LUBRICANTS",
+        "NATURAL_GAS_CGD_LNG",
+        "THERMAL_COAL_AND_MINING",
+        "POWER_GENERATION_UTILITIES",
+        "SOLAR_WIND_RENEWABLE_ENERGY",
+        "POWER_GRID_T_AND_D_EQUIPMENT",
+        "STEEL_IRON_ORE_METALLURGY",
+        "NON_FERROUS_ALUMINIUM_COPPER_ZINC",
+        "INDUSTRIAL_MINERALS_REFRACTORIES",
+        "AUTO_TWO_THREE_WHEELERS",
+        "AUTO_PASSENGER_COMMERCIAL_OEM",
+        "AUTO_ANCILLARY_ICE_POWERTRAIN",
+        "EV_BATTERY_ENERGY_STORAGE",
+        "TYRES_AND_RUBBER_CARBON",
+        "RAILWAYS_ROLLING_STOCK_SIGNALING",
+        "AEROSPACE_AND_DEFENSE_INDIGENOUS",
+        "SHIPPING_PORTS_DREDGING",
+        "LOGISTICS_FREIGHT_SUPPLY_CHAIN",
+        "REAL_ESTATE_RESIDENTIAL_COMMERCIAL",
+        "ROADS_BRIDGES_CIVIL_EPC",
+        "WATER_WASTE_ENVIRO_INFRA",
+        "CEMENT_AND_READY_MIX",
+        "BUILDING_PIPES_CABLES_INTERIORS",
+        "SPECIALTY_FLUORO_AMINE_CHEMICALS",
+        "BULK_ALKALI_COMMODITY_CHEMICALS",
+        "DYES_PIGMENTS_TEXTILE_AUXILIARIES",
+        "AGROCHEMICALS_AND_PESTICIDES",
+        "FERTILIZERS_SOIL_NUTRIENTS",
+        "SUGAR_ETHANOL_BIOENERGY",
+        "AGRI_SEEDS_AQUACULTURE_COMMODITY",
+        "PHARMA_DOMESTIC_FORMULATIONS",
+        "PHARMA_US_EU_EXPORT_GENERICS",
+        "PHARMA_CDMO_API_CRAMS",
+        "HOSPITALS_DIAGNOSTICS_MEDTECH",
+        "FMCG_PERSONAL_HOME_CARE",
+        "PACKAGED_FOODS_DAIRY_BEVERAGES",
+        "ALCOHOLIC_BEVERAGES_SPIRITS",
+        "TEXTILES_YARN_GARMENTS_EXPORT",
+        "RETAIL_FASHION_FOOTWEAR_LIFESTYLE",
+        "QSR_RESTAURANTS_FOOD_DELIVERY",
+        "HOTELS_RESORTS_TOURISM_AVIATION",
+        "MEDIA_BROADCASTING_PRINT_GAMING",
+        "BFSI_BANKS_CORE_LENDING",
+        "BFSI_HOUSING_MORTGAGE_FINANCE",
+        "BFSI_RETAIL_MSME_VEHICLE_NBFC",
+        "BFSI_MICROFINANCE_RURAL_CREDIT",
+        "BFSI_CAPITAL_MARKETS_WEALTH_AMC",
+        "BFSI_INSURANCE_LIFE_GENERAL",
+        "IT_ENTERPRISE_SERVICES_BPO",
+        "SAAS_FINTECH_DIGITAL_PLATFORMS",
+        "EMS_ELECTRONICS_SEMI_HARDWARE",
+        "PACKAGING_PLASTICS_PAPER_STATIONERY"
+      ],
+      "operating_roles": [
+        "RAW_MINING_EXTRACTION",
+        "B2B_MANUFACTURING_PROCESSING",
+        "BRANDED_OEM_PRODUCT_MAKER",
+        "EPC_INFRA_CONTRACTOR",
+        "LOGISTICS_DISTRIBUTION_TRADING",
+        "B2C_RETAIL_HOSPITALITY_OPERATOR",
+        "COLLATERALIZED_ASSET_LENDER",
+        "UNSECURED_CORPORATE_BANK_LENDER",
+        "CAPITAL_MARKETS_EXCHANGE_FEE",
+        "SOFTWARE_IT_BPO_SERVICES",
+        "UTILITY_INFRA_ASSET_OWNER",
+        "CONGLOMERATE_OPERATOR",
+        "INVESTMENT_HOLDING_COMPANY",
+        "SHELL_NON_OPERATING"
+      ],
+      "economic_drivers": [
+        "ADVERTISING_BUDGETS",
+        "AGRICULTURAL_INPUTS",
+        "ASSET_PRICES",
+        "AUM_INFLOWS",
+        "AUTOMOTIVE_ER_AND_D",
+        "BFSI_TECH_SPEND",
+        "BUSINESS_SPENDING",
+        "CAPITAL_EXPENDITURE",
+        "CHEMICAL_FEEDSTOCKS",
+        "CLAIMS_EXPERIENCE",
+        "COMPUTE_INFRASTRUCTURE",
+        "CONSTRUCTION_CYCLE",
+        "CONSUMER_ATTENTION",
+        "CONSUMER_FINANCING",
+        "CONSUMER_SPENDING",
+        "COPPER_PRICES",
+        "COTTON_AND_FIBRE_PRICES",
+        "CREDIT_DEMAND",
+        "CREDIT_QUALITY",
+        "CRUDE_OIL_PRICES",
+        "DATA_CENTRE_INVESTMENT",
+        "DIGITAL_ADOPTION",
+        "DISCRETIONARY_DEMAND",
+        "ELECTRICITY_DEMAND",
+        "ELECTRIFICATION_INVESTMENT",
+        "ELECTRONICS_DEMAND",
+        "ENERGY_COSTS",
+        "ENERGY_DEMAND",
+        "ENERGY_STORAGE",
+        "ENERGY_TRANSITION",
+        "EQUITY_MARKET_VOLATILITY",
+        "EXPORT_DEMAND",
+        "FOOD_DEMAND",
+        "FREIGHT_RATES",
+        "FUEL_COSTS",
+        "GOLD_LOAN_DEMAND",
+        "GOLD_PRICES",
+        "GOLD_VALUE_CHAIN",
+        "HEALTHCARE_DEMAND",
+        "HEALTHCARE_EXPENDITURE",
+        "HOUSING_DEMAND",
+        "INDUSTRIAL_DEMAND",
+        "INFRASTRUCTURE_INVESTMENT",
+        "INPUT_COSTS",
+        "INSURANCE_PENETRATION",
+        "INTEREST_RATES",
+        "JEWELLERY_DEMAND",
+        "LEAD_PRICES",
+        "MANUFACTURING_OUTSOURCING",
+        "MARKET_PARTICIPATION",
+        "METAL_PRICES",
+        "MSME_CREDIT_DEMAND",
+        "PACKAGED_CONSUMPTION",
+        "PULP_AND_POLYMER_PRICES",
+        "REGULATORY_REQUIREMENTS",
+        "RETAIL_CREDIT_GROWTH",
+        "SEMICONDUCTOR_SUPPLY",
+        "SERVICE_DEMAND",
+        "SKILLED_LABOUR",
+        "TECHNOLOGY_SPENDING",
+        "TEXTILE_DEMAND",
+        "TRADE_VOLUMES",
+        "TRAVEL_DEMAND",
+        "USFDA_REGULATORY_COMPLIANCE",
+        "VEHICLE_DEMAND",
+        "WEATHER_AND_HARVESTS",
+        "WORKING_CAPITAL"
+      ],
+      "end_markets": [
+        "AGRICULTURAL_AND_FOOD_CUSTOMERS",
+        "APPAREL_AND_TEXTILE_CUSTOMERS",
+        "AUDIENCES_AND_ADVERTISERS",
+        "AUTOMOTIVE_OEMS",
+        "BORROWERS_AND_SAVERS",
+        "CONSTRUCTION_CUSTOMERS",
+        "CONSUMER_AND_BUSINESS_CUSTOMERS",
+        "CONSUMER_AND_INDUSTRIAL_CUSTOMERS",
+        "DEFENSE_AND_GOVERNMENT",
+        "ELECTRICITY_USERS",
+        "ELECTRONICS_CUSTOMERS",
+        "ENERGY_USERS",
+        "ENTERPRISE_AND_CONSUMER_USERS",
+        "ENTERPRISE_AND_EDUCATION_CUSTOMERS",
+        "FOOD_CONSUMERS",
+        "GLOBAL_DRUGMAKERS",
+        "GLOBAL_ENTERPRISES",
+        "HOUSEHOLDS",
+        "INDUSTRIAL_CUSTOMERS",
+        "INVESTORS",
+        "JEWELLERY_MARKET",
+        "PATIENTS_AND_HEALTHCARE_CUSTOMERS",
+        "POLICYHOLDERS",
+        "POWER_AND_INDUSTRIAL_CUSTOMERS",
+        "PUBLIC_AND_PRIVATE_INFRASTRUCTURE",
+        "TRADE_AND_INDUSTRIAL_CUSTOMERS",
+        "TRAVELLERS_AND_DINERS",
+        "VEHICLE_BUYERS",
+        "WEALTH_CLIENTS"
+      ]
+    }
+  },
+  "application_rules": [
+    "Verify exact base byte hash before loading.",
+    "Keep every existing ID and its original axis. Preserve original legacy document bytes.",
+    "Reject duplicate IDs, alias collisions across distinct meanings, cycles, missing parents and unexpected base IDs.",
+    "Apply the ten proposed additions and explicit definition overlays only in a separate draft namespace.",
+    "Existing companies keep old tags as broad hypotheses. Parent membership never implies child membership. Child assertions require company evidence.",
+    "No ID is merged, deleted, activated or applied to company records by this patch.",
+    "After expert approval, record approval hash and compile a new effective ontology; write a total identity migration for all unchanged IDs and new-ID additions.",
+    "Legacy IDs lacking authored boundaries remain definition_status=legacy_unreviewed; usable in control/exploration only, never sufficient concrete-activity support for v3 operating peers."
+  ],
+  "additions": [
+    {
+      "id": "ALUMINIUM_PRIMARY_SMELTING",
+      "axis": "value_chain",
+      "definition": "Production of primary aluminium metal by electrolytic smelting.",
+      "include": "Operating smelters; segment evidenced.",
+      "exclude": "Bauxite mining alone, alumina refining alone, recycling or fabrication alone.",
+      "aliases": [
+        "primary aluminium production"
+      ],
+      "parent_id": "NON_FERROUS_ALUMINIUM_COPPER_ZINC",
+      "status": "proposed",
+      "economic_reason": "Distinguish operating peers within a broad legacy ecosystem; no automatic company reassignment."
+    },
+    {
+      "id": "ALUMINIUM_ROLLED_PRODUCTS",
+      "axis": "value_chain",
+      "definition": "Conversion of aluminium into flat rolled sheet, plate or foil.",
+      "include": "Own evidenced rolling operations.",
+      "exclude": "Smelting alone, extrusion alone, resale alone.",
+      "aliases": [
+        "aluminium flat rolled products"
+      ],
+      "parent_id": "NON_FERROUS_ALUMINIUM_COPPER_ZINC",
+      "status": "proposed",
+      "economic_reason": "Distinguish operating peers within a broad legacy ecosystem; no automatic company reassignment."
+    },
+    {
+      "id": "ALUMINIUM_EXTRUSIONS",
+      "axis": "value_chain",
+      "definition": "Production of aluminium extruded profiles.",
+      "include": "Evidenced extrusion operations.",
+      "exclude": "Rolling, smelting or purchasing profiles without extrusion.",
+      "aliases": [
+        "aluminium profiles manufacturing"
+      ],
+      "parent_id": "NON_FERROUS_ALUMINIUM_COPPER_ZINC",
+      "status": "proposed",
+      "economic_reason": "Distinguish operating peers within a broad legacy ecosystem; no automatic company reassignment."
+    },
+    {
+      "id": "ALUMINIUM_RECYCLING",
+      "axis": "value_chain",
+      "definition": "Recovery and remelting of scrap aluminium into usable metal.",
+      "include": "Evidenced aluminium secondary-metal operations.",
+      "exclude": "Generic recycling or other metals without aluminium evidence.",
+      "aliases": [
+        "secondary aluminium"
+      ],
+      "parent_id": "NON_FERROUS_ALUMINIUM_COPPER_ZINC",
+      "status": "proposed",
+      "economic_reason": "Distinguish operating peers within a broad legacy ecosystem; no automatic company reassignment."
+    },
+    {
+      "id": "HEALTHCARE_HOSPITAL_OPERATIONS",
+      "axis": "value_chain",
+      "definition": "Operating facilities providing inpatient or multidisciplinary clinical care.",
+      "include": "Own or manage evidenced hospital operations.",
+      "exclude": "Diagnostic testing alone; device manufacturing; drug supply.",
+      "aliases": [
+        "hospital services"
+      ],
+      "parent_id": "HOSPITALS_DIAGNOSTICS_MEDTECH",
+      "status": "proposed",
+      "economic_reason": "Distinguish operating peers within a broad legacy ecosystem; no automatic company reassignment."
+    },
+    {
+      "id": "HEALTHCARE_DIAGNOSTIC_TESTING",
+      "axis": "value_chain",
+      "definition": "Providing pathology or diagnostic imaging tests.",
+      "include": "Operate laboratories or diagnostic centres.",
+      "exclude": "Manufacture equipment only or merely prescribe tests.",
+      "aliases": [
+        "diagnostics services"
+      ],
+      "parent_id": "HOSPITALS_DIAGNOSTICS_MEDTECH",
+      "status": "proposed",
+      "economic_reason": "Distinguish operating peers within a broad legacy ecosystem; no automatic company reassignment."
+    },
+    {
+      "id": "HEALTHCARE_MEDICAL_DEVICES",
+      "axis": "value_chain",
+      "definition": "Developing or manufacturing medical devices or equipment.",
+      "include": "Evidenced device products with manufacturing/development role.",
+      "exclude": "Operating hospitals or generic equipment distribution alone.",
+      "aliases": [
+        "medtech products"
+      ],
+      "parent_id": "HOSPITALS_DIAGNOSTICS_MEDTECH",
+      "status": "proposed",
+      "economic_reason": "Distinguish operating peers within a broad legacy ecosystem; no automatic company reassignment."
+    },
+    {
+      "id": "GOLD_COLLATERAL_LENDING",
+      "axis": "value_chain",
+      "definition": "Origination or servicing of loans secured by gold collateral.",
+      "include": "Evidenced gold-backed lending activity.",
+      "exclude": "Jewellery manufacturing, retail or uncollateralized lending alone.",
+      "aliases": [
+        "gold loans"
+      ],
+      "parent_id": "GOLD_BULLION_AND_JEWELLERY",
+      "status": "proposed",
+      "economic_reason": "Distinguish operating peers within a broad legacy ecosystem; no automatic company reassignment."
+    },
+    {
+      "id": "GOLD_JEWELLERY_MANUFACTURING",
+      "axis": "value_chain",
+      "definition": "Fabrication of gold jewellery products.",
+      "include": "Evidenced manufacturing business segment.",
+      "exclude": "Bullion trading, lending or retail without manufacturing.",
+      "aliases": [
+        "gold jewellery fabrication"
+      ],
+      "parent_id": "GOLD_BULLION_AND_JEWELLERY",
+      "status": "proposed",
+      "economic_reason": "Distinguish operating peers within a broad legacy ecosystem; no automatic company reassignment."
+    },
+    {
+      "id": "GOLD_JEWELLERY_RETAIL",
+      "axis": "value_chain",
+      "definition": "Retail sale of gold jewellery to end customers.",
+      "include": "Evidenced jewellery retail operations.",
+      "exclude": "Wholesale manufacturing or gold lending alone.",
+      "aliases": [
+        "gold jewellery stores"
+      ],
+      "parent_id": "GOLD_BULLION_AND_JEWELLERY",
+      "status": "proposed",
+      "economic_reason": "Distinguish operating peers within a broad legacy ecosystem; no automatic company reassignment."
+    }
+  ],
+  "definition_overlays": [
+    {
+      "id": "GOLD_VALUE_CHAIN",
+      "axis": "economic_driver",
+      "definition": "Legacy gold-ecosystem membership; not a directed exogenous factor.",
+      "include": "Contextual gold ecosystem grouping only.",
+      "exclude": "Price polarity, causal driver scoring, and automatic gold price exposure.",
+      "aliases": [],
+      "status": "proposed_semantic_quarantine",
+      "geometry_action": "exclude_from_v3_drivers_preserve_raw"
+    },
+    {
+      "id": "HEALTHCARE_DEMAND",
+      "axis": "economic_driver",
+      "definition": "Candidate quantity/utilization demand for healthcare services or products at held-constant prices.",
+      "include": "Company-supported activity-volume mechanism.",
+      "exclude": "Automatic equivalence to nominal healthcare expenditure.",
+      "aliases": [],
+      "status": "audit_candidate_not_confirmed_merge"
+    },
+    {
+      "id": "HEALTHCARE_EXPENDITURE",
+      "axis": "economic_driver",
+      "definition": "Candidate nominal healthcare spending, potentially mixing volume, price and mix.",
+      "include": "Explicit nominal spending mechanism.",
+      "exclude": "Assuming spending growth equals utilization growth or profit uplift.",
+      "aliases": [],
+      "status": "audit_candidate_not_confirmed_merge"
+    }
+  ],
+  "migration": {
+    "unchanged": "Every ID in base.unchanged_ids maps to itself on the same axis.",
+    "new_ids": "additions[].id have no v2 precursor assignment.",
+    "splits": "Each child parent_id is narrower_than, not an equivalence migration.",
+    "merged_ids": [],
+    "deleted_ids": []
+  },
+  "synonym_families": [],
+  "correlation_caps": [
+    {
+      "members": [
+        "HEALTHCARE_DEMAND",
+        "HEALTHCARE_EXPENDITURE"
+      ],
+      "action": "provisional shared evidence-family max, retain both facts; no equivalence claim",
+      "status": "hypothesis"
+    },
+    {
+      "members": [
+        "INPUT_COSTS",
+        "ENERGY_COSTS",
+        "FUEL_COSTS"
+      ],
+      "action": "If the same cited mechanism supports more than one, use its most specific supported child only; independent mechanisms may coexist.",
+      "status": "evidence_scoped_rule"
+    }
+  ],
+  "conceptual_relations": [
+    {
+      "id": "AL_PRIMARY_TO_ROLLED",
+      "from_activity": "ALUMINIUM_PRIMARY_SMELTING",
+      "to_activity": "ALUMINIUM_ROLLED_PRODUCTS",
+      "type": "conceptual_input_to",
+      "strength": 1,
+      "definition": "Primary metal may feed rolling; no named supplier/customer claim.",
+      "status": "proposal"
+    },
+    {
+      "id": "AL_PRIMARY_TO_EXTRUSIONS",
+      "from_activity": "ALUMINIUM_PRIMARY_SMELTING",
+      "to_activity": "ALUMINIUM_EXTRUSIONS",
+      "type": "conceptual_input_to",
+      "strength": 1,
+      "definition": "Primary metal may feed extrusion; no named supplier/customer claim.",
+      "status": "proposal"
+    },
+    {
+      "id": "GOLD_MAKE_TO_RETAIL",
+      "from_activity": "GOLD_JEWELLERY_MANUFACTURING",
+      "to_activity": "GOLD_JEWELLERY_RETAIL",
+      "type": "conceptual_input_to",
+      "strength": 1,
+      "definition": "Manufactured jewellery may enter retail; no verified commercial relationship.",
+      "status": "proposal"
+    }
+  ]
+}

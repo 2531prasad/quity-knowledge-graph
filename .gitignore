@@ -1,0 +1,18 @@
+# Large source PDFs (kept local; >100 MB exceeds GitHub limits)
+*.pdf
+*.PDF
+
+# macOS & Editor files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.vscode/
+.idea/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
